@@ -28,10 +28,10 @@ export default () => (
     <NavbarItem to={'/'}>
       <i className="fa fa-home" aria-hidden="true" />
     </NavbarItem>
-    <NavbarItem to={'/About'}>
+    <NavbarItem to={'/about'}>
       <i className="fa fa-user-circle-o" aria-hidden="true" />
     </NavbarItem>
-    <NavbarItem to={'/Work'}>
+    <NavbarItem to={'/work'}>
       <i className="fa fa-code" aria-hidden="true" />
     </NavbarItem>
   </Navbar>
