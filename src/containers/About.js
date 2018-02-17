@@ -3,7 +3,7 @@ import { withSiteData } from 'react-static'
 import styled from 'styled-components'
 
 const Loader = styled.div`
-  background-color: #1f1c1d;
+  background-color: #1f1c7d;
   height: 100vh;
   overflow: hidden;
   position: relative;
@@ -12,18 +12,12 @@ const Loader = styled.div`
   align-items: center;
   justify-content: center;
 `
-const HomeTitle = styled.h1`
-  color: #feffff;
-`
-const HomeSub = styled.h1`
-  color: #feffff;
-`
-
-export default withSiteData(() => (
+export default () => (
   <Loader>
-    <HomeTitle>Jean Luciano</HomeTitle>
-    <HomeSub>Fullstack Web Developer</HomeSub>
-
-   
+    <h3>
+      Born and raised in Puerto Rico. Grew up in Chicago. I grew interested in software development
+      after writing scripts for PSP as a teenager. I am a fullstack developer with an affinity with
+      the frontend and UX/UI design.
+    </h3>
   </Loader>
-))
+)

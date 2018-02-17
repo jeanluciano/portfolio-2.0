@@ -14,6 +14,10 @@ export default {
         component: 'src/containers/Home',
       },
       {
+        path: '/about',
+        component: 'src/containers/About',
+      },
+      {
         path: '/blog',
         component: 'src/containers/Blog',
         getData: () => ({
@@ -48,6 +52,10 @@ export default {
           <Head>
             <meta charSet="UTF-8" />
             <meta name="viewport" content="width=device-width, initial-scale=1" />
+            <link
+              href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+              rel="stylesheet"
+            />
             {renderMeta.styleTags}
           </Head>
           <Body>{children}</Body>

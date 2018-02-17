@@ -4,6 +4,8 @@ import styled, { injectGlobal } from 'styled-components'
 import { hot } from 'react-hot-loader'
 //
 import Routes from 'react-static-routes'
+import NavBar from './containers/components/Navbar'
+import Navbar from './containers/components/Navbar'
 
 injectGlobal`
   body {
@@ -21,7 +23,9 @@ const App = () => (
   <Router>
     <div className="content">
       <Routes />
+      <Navbar />
     </div>
+    
   </Router>
 )
 
